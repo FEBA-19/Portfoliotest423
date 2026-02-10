@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- CSS file link -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />">
+    <!--google font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playwrite+CU+Guides&family=Playwrite+NZ+Basic:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!--Animate style  -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- AOS linK -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+    <div id="container">
+        <!-- nav bar -->
+        <nav>
+            <!-- Logo section -->
+            <img class="Logo"
+                src="https://rlv.zcache.com/maria_name_handwritten_calligraphy_sticker-rdd469cfba7324071af367ca99208b8a7_08rmy_644.jpg?rlvnet=1"
+                alt="Logo">
+            <!-- Link section -->
+            <ul>
+                <li class="list-items"> <a class="links" href="#home">HOME</a></li>
+                <li class="list-items"> <a class="links" href="#about">ABOUT</a></li>
+                <li class="list-items"> <a class="links" href="#skill">SKILLS</a></li>
+                <li class="list-items"> <a class="links" href="#contact">CONTACT</a></li>
+
+            </ul>
+        </nav>
+        <!-- Home section -->
+        <section id="home">
+            <div class="home-content">
+                <h1 class="animate__animated animate__backInLeft" id="username"> I'm Maria <span id="last-name">Joe</span></h1>
+                <p id="user-details">
+                    This is my official portfolio website to showcase
+                    <br>
+                    My journey and work in photography
+                </p>
+                <a id="download" href="./View_brochure.pdf" download="">View Brochure</a>
+            </div>
+            <div class="home-image">
+                <!-- shape -->
+                <img id="shape" class="group1" src="./images/bg.png" alt="shape">
+                <!-- girl -->
+                <img id="girl" class="group1" src="./images/ladyy.png" alt="girl">
+            </div>
+        </section>
+        <!-- About -->
+        <section id="about">
+            <div class="sectionhead">
+                <h2 class="mainhead">About Me</h2>
+                <span class="subhead">Introduction</span>
+            </div>
+            <div class="aboutbody">
+                <div  data-aos="fade-right" class="aboutimage ">
+                    <img class="img1" src="./images/About.png" alt="About">
+                </div>
+                <div class="aboutcontent">
+                    <p>
+                        I am a passionate photo grapher with a deep love for capturing moments that tell stories. From
+                        serene landscapes to expressive portraits, I bring life to frames with creativity and precision.
+                    </p>
+                    <div class="information">
+                        <div class="infobox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Maria Joe</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>6238721980</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>maria.joe@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Skills -->
+        <section id="skill">
+            <div class="sectionhead">
+                <h2 class="mainhead">Skills</h2>
+                <span class="subhead">My Skills</span>
+            </div>
+            <div class="skillcontent">
+                <div class="progressbars">
+                    <!-- Portraits bar -->
+                    <div class="bars">
+                        <h3 class="barhead">Portraits</h3>
+                        <span class="barpercent">90%</span>
+                        <div class="basebar"></div>
+                        <div class="basebar portraitbar"></div>
+                    </div>
+                    <!-- Landscape bar -->
+                    <div class="bars">
+                        <h3 class="barhead">Landscape</h3>
+                        <span class="barpercent">98%</span>
+                        <div class="basebar"></div>
+                        <div class="basebar landscapebar"></div>
+                    </div>
+                    <!-- Editing bar -->
+                    <div class="bars">
+                       <h3 class="barhead">Editing</h3>
+                       <span class="barpercent">85%</span>
+                       <div class="basebar"></div>
+                       <div class="basebar editbar"></div>
+                    </div>
+                    <!-- Wildlife bar -->
+                    <div class="bars">
+                       <h3 class="barhead">Wildlife</h3>
+                       <span class="barpercent">70%</span>
+                       <div class="basebar"></div>
+                       <div class="basebar wildbar"></div>
+                    </div>
+                </div>
+                <div class="skillimage">
+                    <img class="myskill" src="https://thumbs.dreamstime.com/b/skill-development-vector-concept-web-banner-website-page-illustration-tiny-people-putting-books-light-bulb-big-man-144566744.jpg" alt="skillimage">
+                </div>
+
+            </div>
+        </section>
+        <!-- Contact -->
+        <section id="contact">
+            <div class="sectionhead">
+                <h2 class="mainhead">CONTACT</h2>
+                <span class="subhead">My contacts</span>
+            </div>
+            <!-- Icons -->
+             <div class="iconcollection">
+                 <div class="icon">
+                    <a href="" target="_blank"><i class="fa-brands fa-linkedin brands"></i></a>
+                 </div>
+                 <div class="icon">
+                    <a href="" target="_blank"><i class="fa-brands fa-github brands"></i></a>
+                 </div>
+                 <div class="icon">
+                    <a href="" target="_blank"><i class="fa-brands fa-instagram brands"></i></a>
+                 </div>
+                 <div class="icon">
+                    <a href="" target="_blank"><i class="fa-brands fa-whatsapp brands"></i></a>
+                 </div>
+                 <div class="icon">
+                    <a href="" target="_blank"><i class="fa-brands fa-facebook brands"></i></a>
+                 </div>
+                 <div class="icon">
+                    <a href="" target="_blank"><i class="fa-brands fa-twitter brands"></i></a>
+                 </div>
+             </div>
+             
+        </section> 
+        <!-- Footer -->
+        <footer>
+            <p id="copyright">&copy; Maria Joe Photography Portfolio June 2024, &reg; All Rights Reserved</p>
+            <div class="icon uparrow">
+                <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+             </div>
+        </footer>
+    </div>
+</body>
+
+</html>
